@@ -1,0 +1,123 @@
+#gotop
+{
+    display: none;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    padding: 10px;
+    color: #B10923;
+    background: rgba(0,0,0,0);
+    border: 1px solid #B10923;
+    border-radius: 7px;
+    padding: 10px;
+    transition: 0.7s;
+    z-index: 100
+}
+#gotop:hover
+{
+    background: #B10923;
+    color: #fff;
+    transition: 0.7s;
+    border: none
+}
+#gotop i
+{
+    font-size: 20px
+}
+.img1
+{
+	width: 100%;
+	height: 550px
+}
+center
+{
+	position: absolute;
+	bottom: 45%;
+	left:40%;
+	font-size: 70px;
+	color: #E6A9EC
+}
+@media(max-width:812px){
+
+    center{
+        font-size: 25px;
+        left: 39%;
+    }
+}
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+
+}
+.navbar
+{
+	background-color: #333333;
+}
+li 
+{
+    font-size: 22px;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: cursive
+}
+.active
+{
+	background-color:#dc3545;
+    border-radius: 5px
+
+}
+.alert
+{
+	text-align: center
+}
+#figcaption1 ,#figcaption2 , #figcaption3 , #figcaption4
+{
+	display: none
+}
+h3
+{
+	font-style: italic;
+    font-family: cursive;
+}
+ /*start footer*/
+.footer{
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+}
+
+/*fontawesome at the footer*/
+.fontawesome1,.fontawesome2,.fontawesome3{
+    font-size: 40px;
+    color:#B10923;
+    padding: 7px;
+}
+/*hover over fontawesome*/
+a:hover{
+    color:#b8b8b8;
+}
+
+/*column 1 at the footer*/
+.column1{
+    margin-top: 50px;
+}
+/*header in column 1 at the footer*/
+.column1 h2{
+    font-family: Monospace;
+    font-style: italic;
+    font-size: 40px;
+}
+
+/*column 2 at the footer*/
+.column2{
+    margin-top: 60px;
+}
+
+/*move pharagraph in column 2 at the footer*/
+.column2 p{
+    margin-top: 40px;
+}
+ /*end footer*/

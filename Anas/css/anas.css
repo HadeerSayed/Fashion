@@ -1,0 +1,158 @@
+/*---------------------start navbar------------------------------------*/
+.navbar
+{
+    background-color: black;
+}
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 22px;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: cursive;
+}
+.active1
+{
+    background: #dc3545;
+    border-radius: 4px
+}
+/**************************************end navbar**********************************************************************/
+/*******************************************start slide show*****************************************************************/
+.carousel-caption 
+{
+    background-color: rgba(3,3,3,.5);
+    position: absolute;
+    height: 250px;
+    top:25%
+}
+}
+.carousel-control-next, .carousel-control-prev
+{
+    font-size: 50px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon 
+{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+
+.button a
+{
+    text-decoration: none;
+    color: cornsilk;
+}
+.button a:hover
+{
+    color: black;
+}
+.button
+{
+    background-color: black;
+    color: cornsilk;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+.button:hover
+{
+    transform: scale(1.2,1.2);
+    transition: all ease-in-out .5s;
+    background-color: rgb(250, 225, 114);
+}
+.carousel-item img
+{
+    height: 600px
+}
+/***********************************************end the slide show*************************************************************/
+/*******************************************the hr to make margens*****************************************************************/
+.hr
+{
+    padding-top: 50px;
+    margin-top: 0px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 50px;
+}
+/*****************************************section*******************************************************************/
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-2
+{
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 50px;
+}
+.title
+{
+    color: rgb(250, 225, 114)
+}
+.features-icon
+{
+    color: rgb(250, 225, 114);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.fa-map-marker-alt, .fa-handshake, .fa-cogs
+{
+    font-size: 30px;
+    color: teal;
+}
+/**-----------end section------------------*/
+  /*start footer*/
+  .footer{
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+}
+
+/*fontawesome at the footer*/
+.fontawesome1,.fontawesome2,.fontawesome3{
+    font-size: 40px;
+    color:#B10923;
+    padding: 7px;
+}
+/*hover over fontawesome*/
+.footer
+{
+    margin-top: 0px;
+}
+
+a:hover{
+    color:#b8b8b8;
+}
+
+/*column 1 at the footer*/
+.column1{
+    margin-top: 50px;
+}
+/*header in column 1 at the footer*/
+.column1 h2{
+    font-family: Monospace;
+    font-style: italic;
+    font-size: 40px;
+}
+
+/*column 2 at the footer*/
+.column2{
+    margin-top: 60px;
+}
+
+/*move pharagraph in column 2 at the footer*/
+.column2 p{
+    margin-top: 40px;
+}
+ /*end footer*/
+ /*good luck*/

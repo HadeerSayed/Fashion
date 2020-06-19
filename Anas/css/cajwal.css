@@ -1,0 +1,191 @@
+/****************************************body style to make the back ground********************************************************************/
+body
+{
+    background-image: url("../photos/imag-2/man-in-blue-button-up-long-sleeve-jacket-and-black-pants-3595231.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'pacifico,cursive';
+    
+}
+/**********************************************navbar**************************************************************/
+nav
+{
+    background-color: rgba(0,0,0,0.92);
+}
+
+.navbar-brand
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 22px;
+    margin-left: 20px;
+    font-style: italic;
+    font-family: cursive;
+}
+.active
+{
+    background: #dc3545;
+    border-radius: 4px
+}
+/*******************************************end navbar*****************************************************************/
+/*************************************************srart intro***********************************************************/
+.introduction
+{
+    text-align: center;
+    margin-top: 20%;
+  
+}
+.intro
+{
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(250, 225, 114);
+    line-height: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/**********************************************end intro**************************************************************/
+/**************************************************start the show**********************************************************/
+.row
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imag
+{
+    width: 100%;
+    height: 300px;
+    transition: .9s;
+}
+.images
+{   
+   
+    background-color: rgba(0, 0, 0, .5);
+    color: rgb(250, 225, 114);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.images:hover
+{
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0px 2px 20px #fff;
+    border-radius: 20px;
+}
+.images p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+/******************************************the  style of buy icones******************************************************************/
+.fa-shopping-cart, .fa-shipping-fast, .fa-cc-visa
+{
+    color: #fff;
+    border-radius: 100%;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: black;
+    float: right;
+    margin: 5px;
+}
+.fa-shopping-cart:hover, .fa-shipping-fast:hover, .fa-cc-visa:hover
+{
+    color: black;
+    background-color: white;
+    transform: scale(1.1) translateY(5px);
+    transition: all ease-in-out .5s;
+    
+}
+/**************************************end the show**********************************************************************/
+/********************************************end the style of buy icones****************************************************************/
+
+
+/**************************************************the hr to make margen**********************************************************/
+.hr
+{
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 50px;
+    color: blue;
+    
+}
+/*************************************************start .section-2***********************************************************/
+
+.features-icon
+{
+ 
+    color: rgb(250, 225, 114);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.fa-map-marker-alt, .fa-handshake, .fa-cogs
+{
+    font-size: 30px;
+    color: teal;
+}
+.section-2
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 50px;
+}
+.section-2 h1
+{
+    color: rgb(250, 225, 114);
+}
+  /*start footer*/
+  .footer{
+    margin-top: 50px;
+    background-color:black;
+    color: white;
+}
+
+/*fontawesome at the footer*/
+.fontawesome1,.fontawesome2,.fontawesome3{
+    font-size: 40px;
+    color:#B10923;
+    padding: 7px;
+}
+/*hover over fontawesome*/
+.footer
+{
+    margin-top: 0px;
+}
+
+a:hover{
+    color:#b8b8b8;
+}
+
+/*column 1 at the footer*/
+.column1{
+    margin-top: 50px;
+}
+/*header in column 1 at the footer*/
+.column1 h2{
+    font-family: Monospace;
+    font-style: italic;
+    font-size: 40px;
+}
+
+/*column 2 at the footer*/
+.column2{
+    margin-top: 60px;
+}
+
+/*move pharagraph in column 2 at the footer*/
+.column2 p{
+    margin-top: 40px;
+}
+ /*end footer*/
+ /*good luck*/
+/***************************************good luck*********************************************************************/
